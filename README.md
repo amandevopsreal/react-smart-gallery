@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Search Filter React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React app that implements a search filter functionality using states. The app allows users to search for specific items in a list by typing keywords into a search input field. The list dynamically updates based on the user's search query, displaying only the items that match the search criteria.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+Before running the app, ensure you have the following installed:
 
-### `npm start`
+- Node.js
+- npm (Node Package Manager)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone this repository to your local machine using the following command:
 
-### `npm test`
+   ```
+   git clone https://github.com/your-username/search-filter-app.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
 
-### `npm run build`
+   ```
+   cd search-filter-app
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install the required dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1. Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Open your web browser and navigate to `http://localhost:3000` to access the app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. You will see a list of items displayed on the page.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Type keywords into the search input field to filter the items. The list will dynamically update to show only the items that match the search query.
 
-## Learn More
+## Customization
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To customize the list of items and the search filter logic, follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Open the `src/App.js` file in your preferred code editor.
 
-### Code Splitting
+2. Modify the `items` array in the `App` component's state. Add or remove items as desired. Each item should have a unique `id` and a `name` property.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Customize the logic in the `handleSearch` function to implement your desired search filter logic. The current implementation filters items based on the partial match of the search query with the item names.
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request to this repository.
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the [MIT License](LICENSE).
 
-### Advanced Configuration
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This app was built using React and various open-source libraries. Special thanks to the developers and contributors of these technologies.
 
-### Deployment
+- React: [https://reactjs.org](https://reactjs.org)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contact
 
-### `npm run build` fails to minify
+If you have any questions or inquiries about this app, please contact [your-email@example.com](mailto:your-email@example.com).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+*Note: Make sure to replace `your-username` in the repository URL with your actual GitHub username, and `your-email@example.com` in the contact section with your preferred contact email.*
