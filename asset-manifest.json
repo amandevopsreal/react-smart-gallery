@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-smart-gallery/static/css/main.7cf77d02.css",
+    "main.js": "/react-smart-gallery/static/js/main.21686873.js",
+    "static/js/787.cc33f7e5.chunk.js": "/react-smart-gallery/static/js/787.cc33f7e5.chunk.js",
+    "index.html": "/react-smart-gallery/index.html",
+    "main.7cf77d02.css.map": "/react-smart-gallery/static/css/main.7cf77d02.css.map",
+    "main.21686873.js.map": "/react-smart-gallery/static/js/main.21686873.js.map",
+    "787.cc33f7e5.chunk.js.map": "/react-smart-gallery/static/js/787.cc33f7e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cf77d02.css",
+    "static/js/main.21686873.js"
+  ]
+}
